@@ -6,7 +6,7 @@ module.exports = {
     deploy: {
       production: {
         user: 'ubuntu',
-        host: 'ec2-18-223-121-93.us-east-2.compute.amazonaws.com',
+        host: 'ec2-18-216-79-5.us-east-2.compute.amazonaws.com',
         key: '~/.ssh/id_rsa.pub',
         ref: 'origin/master',
         repo: 'git@github.com:SierikovRoman/chat-server.git',
